@@ -1,0 +1,73 @@
+.headerPrincipal .container {
+    display: flex; /*hereda las propiedades a los hijos*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerPrincipal-nav{
+    display: flex;
+}
+
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 20%;
+}
+
+.videoSobre .container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.videoSobre-video{
+    flex-grow: 2;
+    flex-shrink: 2;
+    max-width: 60%;
+}
+
+.videoSobre-sobre {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.videoSobre-sobre-list{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;   
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    flex-wrap: wrap;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65%;
+    margin-right: 10%;
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+
+}
